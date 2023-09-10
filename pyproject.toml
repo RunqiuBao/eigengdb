@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "eigengdb"
+version = "0.0.1"
+authors = [
+  { name="D. M.", email="dmillard@usc.edu" },
+]
+description = "GDB pretty printers for eigen types"
+readme = "README.rst"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/RunqiuBao/eigengdb"
+"Bug Tracker" = "https://github.com/RunqiuBao/eigengdb/issues"
+
